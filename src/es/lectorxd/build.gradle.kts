@@ -1,8 +1,7 @@
+import io.github.keiyoushi.gradle.api.ContentWarning
+
 plugins {
-    id("com.android.library")
-    kotlin("android")
-    id("dev.zacsweers.moshix")
-    id("com.google.devtools.ksp")
+    alias(kei.plugins.extension)
 }
 
 keiyoushi {
